@@ -1,0 +1,3 @@
+C:/Users/Andrea/Desktop/blockchain/build/CMakeFiles/blockchain.dir
+C:/Users/Andrea/Desktop/blockchain/build/CMakeFiles/edit_cache.dir
+C:/Users/Andrea/Desktop/blockchain/build/CMakeFiles/rebuild_cache.dir

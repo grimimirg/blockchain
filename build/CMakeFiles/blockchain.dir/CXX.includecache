@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Andrea/Desktop/blockchain/headers/block.h
+data.h
+C:/Users/Andrea/Desktop/blockchain/headers/data.h
+
+C:/Users/Andrea/Desktop/blockchain/headers/chain.h
+vector
+-
+block.h
+C:/Users/Andrea/Desktop/blockchain/headers/block.h
+
+C:/Users/Andrea/Desktop/blockchain/headers/data.h
+string
+-
+
+C:/Users/Andrea/Desktop/blockchain/main.cpp
+iostream
+-
+time.h
+-
+headers/chain.h
+C:/Users/Andrea/Desktop/blockchain/headers/chain.h
+headers/data.h
+C:/Users/Andrea/Desktop/blockchain/headers/data.h
+
