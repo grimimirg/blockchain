@@ -9,8 +9,9 @@ using namespace std;
 Chain::Chain() {
     // Ogni volta che la Chain viene inizializzata, deve
     // per forza avere almeno un blocco (il primo in assoluto).
-    Block genesisBlock = this->createGenesisBlock();
-    chain.push_back(genesisBlock);
+    chain.push_back(
+        this->createGenesisBlock()
+    );
 }
 
 Block Chain::createGenesisBlock() {
@@ -35,8 +36,11 @@ void Chain::setChain(vector<Block> chain) {
 }
 
 Block Chain::createBlockFromData(Data data) {
-    int index = ((int) chain.size()) - 1;
-    return Block(index, data, this->getLatestBlock()->getHash());
+    return Block(
+        ((int) chain.size()) - 1, 
+        data, 
+        this->getLatestBlock()->getHash()
+    );
 }
 
 void Chain::addBlock(Block block) {

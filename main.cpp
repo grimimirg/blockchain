@@ -15,7 +15,7 @@ int main() {
             // Il Grimi diventa povero andando in ALL-IN 
             // sulla puntata del Johnny.
             // Haha tanto perderà, che sfigato :D
-            Data("grimiKey", "johnnyKey", 1000, time(&now))
+            Data("grimiKey", "johnnyKey", 100000.0, time(&now))
         )
     );
 
